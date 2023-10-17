@@ -79,6 +79,7 @@ header {
     background-position: center;
     background-size: cover;
     padding: 3em 2em;
+    background-repeat: no-repeat;
 }
 @media (max-width: 800px) {.teamsbg{padding: 3em 1em;}}
 
