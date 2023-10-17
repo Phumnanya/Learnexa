@@ -70,8 +70,6 @@ header {
     border: 2px solid #610094;
     border-radius: 18px;
 }
-@media (max-width: 800px) {.content input[type=search] {border-radius: 0px;}}
-
 .teamsbg {
     width: 100%;
     height: fit-content;
