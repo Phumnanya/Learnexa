@@ -1,7 +1,7 @@
 document.getElementById('signup').style.backgroundColor = '#610094';
-document.getElementById('save').style.display = 'none';
+document.getElementById('save').style.display='none';
 
-//function for five star review
+/**function for five star review*/
 var output = " ";
 for (i = 0; i < 5; i++) {
     output += "<i class='fas fa-star'></i>"
@@ -47,7 +47,7 @@ function profileedit(id) {
     document.getElementById('dob').readOnly = false;
     document.getElementById('num').readOnly = false;
     document.getElementById('profile-email').readOnly = false;
-    document.getElementById('save').style.display = ' ';
+    document.getElementById('save').style.display = '';
     id.style.display='none';
 }
 function saveedit(id) {
@@ -55,9 +55,10 @@ function saveedit(id) {
     document.getElementById('dob').readOnly = true;
     document.getElementById('num').readOnly = true;
     document.getElementById('profile-email').readOnly = true;
-    document.getElementById('edit').style.display = ' ';
+    document.getElementById('edit').style.display = '';
     id.style.display='none';
 }
+
 /**display signup badge */
 function dsignup() {
     document.getElementById('success').style.display = 'block';
