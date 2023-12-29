@@ -36,6 +36,7 @@ function displayjs() {
     document.getElementById('web').style.display = 'none';
 }
 /**display the web development courses */
+
 function displayweb() {
     document.getElementById('web').style.display = 'block';
     document.getElementById('javascript').style.display = 'none';
