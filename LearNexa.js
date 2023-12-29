@@ -47,7 +47,7 @@ function profileedit(id) {
     document.getElementById('dob').readOnly = false;
     document.getElementById('num').readOnly = false;
     document.getElementById('profile-email').readOnly = false;
-    document.getElementById('save').style.display = 'block';
+    document.getElementById('save').style.display = ' ';
     id.style.display='none';
 }
 function saveedit(id) {
@@ -55,7 +55,7 @@ function saveedit(id) {
     document.getElementById('dob').readOnly = true;
     document.getElementById('num').readOnly = true;
     document.getElementById('profile-email').readOnly = true;
-    document.getElementById('edit').style.display = 'block';
+    document.getElementById('edit').style.display = ' ';
     id.style.display='none';
 }
 /**display signup badge */
