@@ -1,7 +1,7 @@
 document.getElementById('signup').style.backgroundColor = '#610094';
-document.getElementById('save').style.display='none';
+document.getElementById('save').style.display = 'none';
 
-/**function for five star review*/
+//function for five star review
 var output = " ";
 for (i = 0; i < 5; i++) {
     output += "<i class='fas fa-star'></i>"
