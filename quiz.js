@@ -1,3 +1,4 @@
+
 var score = 0;
 let current_question = 0;
 
