@@ -1,5 +1,4 @@
 document.getElementById('signup').style.backgroundColor = '#610094';
-document.getElementById('save').style.display = 'none';
 
 //function for five star review
 var output = " ";
