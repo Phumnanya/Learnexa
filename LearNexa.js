@@ -58,7 +58,6 @@ function saveedit(id) {
     document.getElementById('edit').style.display = '';
     id.style.display='none';
 }
-
 /**display signup badge */
 function dsignup() {
     document.getElementById('success').style.display = 'block';
